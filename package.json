@@ -1,6 +1,6 @@
 {
 	"name": "@fuzzyos/fuzzy-agent",
-	"version": "0.2.1",
+	"version": "0.3.1",
 	"description": "General-purpose agent with transport abstraction, state management, and attachment support",
 	"type": "module",
 	"main": "./dist/index.js",
@@ -17,7 +17,7 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@fuzzyos/fuzzy-ai": "^0.2.1"
+		"@fuzzyos/fuzzy-ai": "^0.3.1"
 	},
 	"keywords": [
 		"ai",
@@ -30,8 +30,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/fuzzyos/fuzzy-agent.git",
-		"directory": "packages/fuzzy-agent"
+		"url": "git+https://github.com/fuzzyos/fuzzy-agent.git"
 	},
 	"engines": {
 		"node": ">=20.0.0"
